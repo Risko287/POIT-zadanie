@@ -1,0 +1,15 @@
+# Loads default set of integrations. Do not remove.
+default_config:
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+mqtt:
+  sensor: !include_dir_merge_list mqtt/sensor
+  light: !include_dir_merge_list mqtt/light
+  button: !include_dir_merge_list mqtt/button
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml

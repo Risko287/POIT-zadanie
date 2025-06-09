@@ -1,0 +1,10 @@
+- name: "Office light"
+  state_topic: "esp32/light1/state"
+  command_topic: "esp32/light1/state"
+  brightness_state_topic: "esp32/light1/brightness"
+  brightness_command_topic: "esp32/light1/brightness"
+  qos: 0
+  payload_on: "ON"
+  payload_off: "OFF"
+  optimistic: false
+  unique_id: "5"

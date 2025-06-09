@@ -1,0 +1,5 @@
+- name: "Humidity 1"
+  state_topic: "esp32/humidity/hum1"
+  unit_of_measurement: "%"
+  state_class: measurement
+  icon: mdi:water-percent

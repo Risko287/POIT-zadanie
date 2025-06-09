@@ -1,0 +1,4 @@
+- unique_id: "12"
+  name: "Button 2"
+  command_topic: "esp32-2/button/state"
+  payload_press: "pressed"

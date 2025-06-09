@@ -1,0 +1,5 @@
+- name: "Temp 1"
+  state_topic: "esp32/temperature/temp1"
+  unit_of_measurement: "°C"
+  state_class: measurement
+  icon: mdi:home-thermometer

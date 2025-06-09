@@ -1,0 +1,5 @@
+- name: "Lux"
+  state_topic: "esp32-2/lux"
+  unit_of_measurement: "lux"
+  state_class: measurement
+  icon: mdi:car-light-high
